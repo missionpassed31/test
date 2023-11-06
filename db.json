@@ -14,20 +14,19 @@
     },
     {
       "id": 9,
-      "title": " Priority and Round Robin scheduling"
+      "title": "Priority and Round Robin scheduling"
     },
     {
       "id": 10,
       "title": "Bankers Algorithm"
     },
     {
-       "id": 11,
+      "id": 11,
       "title": "First Fit, Best fit and Worst fit"
     },
     {
-       "id": 11,
-      "title": " FIFO, LRU and LFU Page replacement"
-    },
-    
+      "id": 12,
+      "title": "FIFO, LRU and LFU Page replacement"
+    }
   ]
 }
