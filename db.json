@@ -1,14 +1,32 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "codes": [
+    {
+      "id": 6,
+      "title": "Dining Philosopher problem"
+    },
+    {
+      "id": 7,
+      "title": "FCFS-SJF"
+    },
+    {
+      "id": 8,
+      "title": "FCFS-SJF"
+    },
+    {
+      "id": 9,
+      "title": "Priority and Round Robin scheduling"
+    },
+    {
+      "id": 10,
+      "title": "Bankers Algorithm"
+    },
+    {
+      "id": 11,
+      "title": "First Fit, Best fit and Worst fit"
+    },
+    {
+      "id": 12,
+      "title": "FIFO, LRU and LFU Page replacement"
+    }
+  ]
 }
