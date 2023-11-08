@@ -33,6 +33,11 @@
       "id": 12,
       "title": "FIFO, LRU and LFU Page replacement",
       "code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week12/Q12.c"
+    },
+    {
+      "id": 20,
+      "title": "Alternate and Combined Codes",
+      "code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/alternate.c"
     }
   ],
   "test": [
