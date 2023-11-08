@@ -2,33 +2,37 @@
   "codes": [
     {
       "id": 7,
-      "title": "Dining Philosopher problem"
+      "title": "Dining Philosopher problem",
+      "code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week7/Q.c"
     },
     {
       "id": 8,
-      "title": "FCFS-SJF"
+      "title": "FCFS-SJF",
+      "fcfs-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week8/Q1.c",
+      "sjf-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week8/Q2.c"
     },
     {
       "id": 9,
-      "title": "Priority and Round Robin scheduling"
+      "title": "Priority and Round Robin scheduling",
+      "priority-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week9/Q1.c",
+      "rr-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week9/Q2.c"
     },
     {
       "id": 10,
-      "title": "Bankers Algorithm"
+      "title": "Bankers Algorithm",
+      "code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week10/Q10.c"
     },
     {
       "id": 11,
       "title": "First Fit, Best fit and Worst fit"
+      "ff-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week11/Q11a.c",
+      "bf-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week11/Q11b.c",
+      "wf-code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week11/Q11c.c"
     },
     {
       "id": 12,
-      "title": "FIFO, LRU and LFU Page replacement"
-    }
-  ],
-  "code": [
-    {
-      "id": 8,
-      "program": "#include <stdio.h> int main() { int pid[15]; int bt[15]; int n; printf(\"Enter the number of processes: \"); scanf(\"%d\", &n); printf(\"Enter process ID of all the processes: \n\"); for(int i = 0; i < n; i++) { scanf(\"%d\", &pid[i]); } printf(\"Enter burst time of all the processes: \n\"); for(int i = 0; i < n; i++) { scanf(\"%d\", &bt[i]); } int i, wt[n]; wt[0] = 0; for(i = 1; i < n; i++) { wt[i] = bt[i - 1] + wt[i - 1]; } printf(\"Process ID\tBurst Time\tWaiting Time\tTurnaround Time\\n\"); float twt = 0.0; float tat = 0.0; for(i = 0; i < n; i++) { printf(\"%d\t\t%d\t\t%d\t\t%d\\n\", pid[i], bt[i], wt[i], bt[i] + wt[i]); twt += wt[i]; tat += (wt[i] + bt[i]); } float att, awt; awt = twt / n; att = tat / n; printf(\"Avg. waiting time = %f\\n\", awt); printf(\"Avg. turnaround time = %f\\n\", att); return 0; }"
+      "title": "FIFO, LRU and LFU Page replacement",
+      "code": "https://raw.githubusercontent.com/missionpassed31/test/main/OS/week12/Q12.c"
     }
   ]
 }
